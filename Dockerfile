@@ -11,4 +11,4 @@ RUN echo 'deb http://ftp.debian.org/debian jessie-backports main' >> /etc/apt/so
 RUN wget https://raw.githubusercontent.com/paulp/sbt-extras/master/sbt -O /usr/bin/sbt && \
     chmod +x /usr/bin/sbt
 
-#TODO: Download SBT so we don't have to do it on build. It's heaps slow.
+RUN sbt -sbt-create
