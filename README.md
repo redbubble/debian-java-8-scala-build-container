@@ -7,8 +7,8 @@ Build environment for Scala, using sbt.
 If you make changes, rebuild & test the image:
 
 ```
-$ docker build .
+$ make build
 ```
 
-There is a buildkit build that will then take care of building the image and pushing to docker hub.
+There is a buildkite build that will then take care of building the image and pushing to docker hub.
 
