@@ -1,4 +1,4 @@
-IMAGE_NAME = debian-java-8-scala-build
+IMAGE_NAME = redbubble/debian-java-8-scala-build
 BUILDKITE_BRANCH ?= $(shell git rev-parse --abbrev-ref HEAD)
 BUILDKITE_BUILD_NUMBER ?= 0
 
